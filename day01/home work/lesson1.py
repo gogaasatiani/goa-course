@@ -7,6 +7,3 @@ print (name + " " + surname + " " + height + " " + age + " " + story)
 
 
 
-
-
-
