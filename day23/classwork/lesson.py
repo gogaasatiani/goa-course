@@ -1,0 +1,1 @@
+print(asatiani.find(n))
