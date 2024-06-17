@@ -1,9 +1,15 @@
-listt  = "hello"  5,  10.2,   True, False]
+ items:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+print(numbers[:3])
 
-listt[0] = ['Hello world i am student goga']
+print(numbers[-3:])
 
-listt[1] = [10]
 
-listt[2] = True
 
-print(listt)
+ Print elements from index 3 to 7:
+print(numbers[3:8])
+
+
+
+ Print the entire list:
+print(numbers)
+
