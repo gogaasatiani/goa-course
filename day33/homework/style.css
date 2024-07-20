@@ -1,0 +1,35 @@
+
+
+
+
+able {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Adds space between rows */
+}
+tr {
+    height: 40px; /* Adds height to rows */
+}
+tr:nth-child(1) {
+    background-color: #f8c471; /* Light orange */
+}
+tr:nth-child(2) {
+    background-color: #f7d794; /* Light yellow */
+}
+tr:nth-child(3) {
+    background-color: #82ccdd; /* Light blue */
+}
+tr:nth-child(4) {
+    background-color: #60a3bc; /* Medium blue */
+}
+tr:nth-child(5) {
+    background-color: #3c6382; /* Dark blue */
+}
+tr:nth-child(6) {
+    background-color: #0a3d62; /* Darker blue */
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
