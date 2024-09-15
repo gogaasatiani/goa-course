@@ -3,94 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            text-align: center;
-            width: 400px;
-        }
-        .container h1 {
-            margin-bottom: 20px;
-            font-size: 24px;
-            color: #333;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        .form-group input {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .form-group button {
-            width: 100%;
-            padding: 10px;
-            background-color: #0073b1;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .form-group button:hover {
-            background-color: #005b8a;
-        }
-        .alternative {
-            margin-top: 20px;
-        }
-        .alternative a {
-            color: #0073b1;
-            text-decoration: none;
-        }
-        .alternative a:hover {
-            text-decoration: underline;
-        }
-        .illustration {
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>LinkedIn Login</title>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to your professional community</h1>
-        <form>
-            <div class="form-group">
-                <input type="email" placeholder="Email or phone">
-            </div>
-            <div class="form-group">
-                <input type="password" placeholder="Password">
-            </div>
-            <div class="form-group">
-                <button type="submit">Sign in</button>
-            </div>
-            <div class="form-group">
-                <a href="#">Forgot password?</a>
-            </div>
-        </form>
-        <div class="alternative">
-            <p>Or</p>
-            <button>Continue with Google</button>
-        </div>
-        <div class="alternative">
-            <p>New to LinkedIn? <a href="#">Join now</a></p>
-        </div>
-        <div class="illustration">
-            <!-- You can add an illustration here -->
-            <img src="https://img.freepik.com/free-vector/elegant-businessman-using-computer-character_18591-82589.jpg" alt="">
+        <div class="login-form">
+            <h1>Welcome to your professional community</h1>
+            <input type="text" placeholder="Email or phone" required>
+            <input type="password" placeholder="Password" required>
+            <a href="#" class="forgot-password">Forgot password?</a>
+            <button class="sign-in">Sign in</button>
+            <div class="divider">or</div>
+            <button class="google-sign-in">Continue with Google</button>
+            <p class="new-user">New to LinkedIn? <a href="#">Join now</a></p>
         </div>
     </div>
 </body>

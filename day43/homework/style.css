@@ -38,6 +38,10 @@ section {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+section:hover {
+    background-color: rgba(255, 252, 252, 0.662);
+    transition: 2s;
+}
 
 footer {
     text-align: center;
@@ -47,4 +51,19 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-bottom: 0px;
+    margin-top: 30px
+}
+footer:hover {
+    background-color: rgba(2, 54, 150, 0.533);
+    transition: 2s;
+}
+a:hover  {
+    color: black;
+    transition: 1s;
+    border-bottom: 1px, solid black;
+    
+
+
+
 }
