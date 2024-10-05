@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ტურისტული ვებსაიტი</title>
+</head>
+<body>
+    <header>
+        <h1>ტურისტული ვებსაიტი</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">მთავარი</a></li>
+                <li><a href="#tours">ტურები</a></li>
+                <li><a href="#gallery">გალერეა</a></li>
+                <li><a href="#contact">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="tours">
+        <h2>ტურები</h2>
+        <div class="tour" onclick="location.href='tour-details.html';">
+            <img src="tour1.jpg" alt="Tour 1">
+            <h3>ტური 1</h3>
+            <p>ტურის მოკლე აღწერა.</p>
+            <button>დაწვრილებით</button>
+        </div>
+        <div class="tour" onclick="location.href='tour-details.html';">
+            <img src="tour2.jpg" alt="Tour 2">
+            <h3>ტური 2</h3>
+            <p>ტურის მოკლე აღწერა.</p>
+            <button>დაწვრილებით</button>
+        </div>
+        <!-- Add more tours as needed -->
+    </section>
+
+    <section id="gallery">
+        <h2>გალერეა</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>კონტაქტი</h2>
+        <form>
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">შეტყობინება:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">გაგზავნა</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>საკონტაქტო ინფორმაცია | სოციალური მედია | © 2024 ყველა უფლება დაცულია</p>
+        <div class="partners">
+            <img src="partner1.png" alt="Partner 1">
+            <img src="partner2.png" alt="Partner 2">
+            <!-- Add more partner logos as needed -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
