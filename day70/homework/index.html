@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // Prompt for a test score
+    let score = parseFloat(prompt("Enter the test score (0-100):"));
+
+    // Classify the grade based on the score
+    let grade;
+    if (score >= 90 && score <= 100) {
+        console.log(grade = 'A');
+    } else if (score >= 80 && score < 90) {
+        console.log(grade = 'B');
+    } else if (score >= 70 && score < 80) {
+        console.log(grade = 'C');
+    } else if (score >= 60 && score < 70) {
+        console.log(grade = 'D');
+    } else if (score >= 0 && score < 60) {
+        console.log(grade = 'F');
+    } else {
+        console.log(grade = 'Invalid score');
+        
+    }
+</script>
+
+</body>
+</html>
