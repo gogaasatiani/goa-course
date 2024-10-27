@@ -1,6 +1,6 @@
-let dayNumber = 10;
+let choice = 10;
 
-switch (dayNumber) {
+switch (choice) {
     case 1:
         console.log("ორშაბათი");
         break;
