@@ -1,0 +1,187 @@
+* {
+    border-radius: 0px;
+
+
+    
+}
+.img1 {
+    height: 700px;
+    width: 1500px;
+    top: 200px;
+    
+}
+
+    
+
+.h11 {
+    color: white;
+    box-sizing: border-box;
+    margin-top: -250px;
+    justify-content: center;
+    margin-left: 500px;
+    
+
+}
+.button1 {
+    border-radius: 100px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    width: 250px;
+    margin-left: 545px;
+    border: 0px;
+    font-size: large;
+}
+.button1:hover {
+    background-color: rgb(231, 73, 16);
+    transform: scale(1.03); 
+  }
+.button2 {
+    margin-top: 140px;
+    height: 500px
+    color: white;
+    background-color: purple;
+    width: 1500px;
+    height: 500px;
+    font-size: large;
+    border: 0px;
+       
+}
+.h22 {
+    color: white;
+    box-sizing: border-box;
+    margin-top: -450px;
+    justify-content: center;
+    margin-left: 350px;
+    height: 100px;
+    
+    
+    
+    
+}
+
+.h33 {
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-top:-60px;
+    justify-content: center;
+    margin-left: 530px;
+    height: 100px;
+}
+
+.h44 {
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-top:-60px;
+    justify-content: center;
+    margin-left: 430px;
+    height: 100px;
+}
+
+
+.button3 {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(164, 158, 158);
+    height: 40px;
+    width: 350px;
+    margin-left: 200px;
+    border: 0px;
+    font-size: large;
+    margin-top: -100px;
+
+    
+ 
+}
+
+.button4 {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(164, 158, 158);
+    height: 40px;
+    width: 350px;
+    margin-left: 555px;
+    border: 0px;
+    font-size: large;
+    box-sizing: border-box;
+
+}
+.div1 {
+    margin-top: -40px;
+    box-sizing: border-box;
+    color: black;
+}
+.button5 {
+    border-radius: 10px;
+    background-color: orangered;
+    color: rgb(255, 251, 251);
+    height: 40px;
+    width: 200px;
+    margin-left: 910px;
+    border: 0px;
+    font-size: large;
+    box-sizing: border-box
+    
+
+}
+.div2 {
+    margin-top: -40px;
+}
+
+.img2 {
+    margin-top: 450px;
+    margin-left: 100px;
+}
+.img2:hover {
+    transform: scale(1.03);
+
+}
+.div3 {
+    margin-top: -600px;
+    width: 10px;
+}
+.h66 {
+    margin-left: 600px;
+    color: orangered;
+}
+.button6 {
+    border-radius: 100px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    width: 250px;
+    margin-left: 350px;
+    border: 0px;
+    font-size: large;
+    margin-top: 450px;
+}
+.button6:hover {
+    transform: scale(1.03);
+}
+.img4 {
+    margin-left: 800px;
+    margin-top: -800px;
+}
+.div4 {
+    margin-top: -105px;
+}
+.img4:hover {
+    transform: scale(1.03);
+}
+.button7 {
+    border-radius: 100px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    width: 250px;
+    margin-left: 1000px;
+    border: 0px;
+    font-size: large;
+    margin-top: -800px;
+}
+.button7:hover {
+    transform: scale(1.03);
+}
+.div5 {
+    margin-top: 50px;
+}
