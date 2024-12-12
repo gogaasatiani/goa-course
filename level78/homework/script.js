@@ -1,1 +1,1 @@
-// jgufuri proeqti gvqonda
+// proeqti gvqonda figmashi
