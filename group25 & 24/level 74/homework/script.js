@@ -30,6 +30,6 @@ switch (dayNumber) {
     case 7:
         return "კვირა";
     default:
-          return "არასწორი დღე";
-      }
+        return "არასწორი დღე";
+}
         
