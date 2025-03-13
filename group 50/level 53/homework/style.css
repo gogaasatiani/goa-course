@@ -1,0 +1,18 @@
+.grow-shrink-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    animation: grow-shrink 2s infinite;
+  }
+
+  @keyframes grow-shrink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

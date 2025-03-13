@@ -1,0 +1,14 @@
+.color-changing-text {
+    font-size: 36px;
+    font-weight: bold;
+    animation: color-change 2s infinite alternate;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: red;
+    }
+    100% {
+      color: blue;
+    }
+  }
