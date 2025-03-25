@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="slider">
+        <div id="slides">
+            <div class="slide">
+                <img src="download (1).jfif" alt="">
+            </div>
+            <div class="slide">
+                <img src="download (4).jfif" alt="">
+            </div>
+            <div class="slide">
+                <img src="download.jfif" alt="">
+            </div>
+        </div>
+        <button onclick="changeSlide(-1)" class="prev">❮</button>
+        <button onclick="changeSlide(1)" class="next">❯</button>
+    </div>
+
+    
+        let slideIndex = 0;
+
+        function showSlides() {
+            const slides = document.querySelectorAll('.slide');
+            slides.forEach((slide, index) => {
+                slide.style.display = (index === slideIndex) ? 'block' : 'none';
+            });
+        }
+
+        function changeSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            slideIndex += n;
+
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            } else if (slideIndex < 0) {
+                slideIndex = slides.length - 1;
+            }
+
+            showSlides();
+        }
+
+        // Automatically change slides every 3 seconds
+        setInterval(() => {
+            changeSlide(1);
+        }, 3000);
+
+        showSlides(); // Initial call to display the first slide
+</body>
+</html>
