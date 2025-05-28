@@ -1,5 +1,0 @@
-name ("გოგა")
-surname ("ასათიანი")
-age ("12")
-print ("i will be 22 years old in 10 years")
-print ("name" + "surname" + "age" + "i will be 22 in 10 years")

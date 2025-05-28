@@ -1,1 +1,0 @@
-// proeqti gvqonda figmashi

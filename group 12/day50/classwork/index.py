@@ -1,1 +1,0 @@
-# gaketebuli maqvs day 49 is homework da classwork
